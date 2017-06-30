@@ -14,24 +14,6 @@ jQuery(document).ready( function($) {
     return str.match( /^.+?(?==)/gm )
   }
 
-  function readFile() {
-    var fso = new ActiveXObject(Scripting.FileSystemObject),
-        f = fso.opentextfile("C:\a.txt", 1, true);
-  }
-
-            var getActiveXObject ,getFile,someMessage;
-             getAXO = new ActiveXObject("Scripting.FileSystemObject");
-            getF = getAXO.GetFile("C:\\bootbak.ini");
-            someMessage = "FileName:" + getF.Name   + "Filesize:" + getF.size + " bytes.";
-     if(getF.size > 500)
-     {
-     alert(s);
-     }
-     else
-     {
-     alert("This file's size is small!");
-     }
-
   $("#update").click( function() {
     var _old = $("#old").val(),
         _new = $("#new").val(),
