@@ -2,4 +2,4 @@
 
 Online tool(s) for mod translators.
 
-[Update Tool](http://blog.hayo-studio.cn/tool/update.html)
+[Update Tool](https://snownee.github.io/l10n-tools/update.html)
